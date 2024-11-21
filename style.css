@@ -8,6 +8,7 @@
 :root {
   --text-color: white;
   --text-bg-color: rgba(0, 0, 0, 0.5);
+  --text-shadow-color: black;
   --bg-url: url(./assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
@@ -19,6 +20,7 @@
 .light {
   --text-color: black;
   --text-bg-color: rgba(255, 255, 255, 0.5);
+  --text-shadow-color: white;
   --bg-url: url(./assets/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -72,6 +74,7 @@ body * {
   width: 112px;
 }
 #profile span {
+  text-shadow: 1px 1px 0px var(--text-bg-color);
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
@@ -143,6 +146,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background 0.4s;
+  text-shadow: 1px 1px 0px var(--text-bg-color);
 }
 ul li a:hover {
   background-color: var(--surface-color-hover);
