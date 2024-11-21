@@ -177,12 +177,8 @@ footer {
   font-size: 14px;
   padding: 24px 0;
 }
-footer a {
-  text-decoration: none;
-}
 
 /* media queries */
-
 @keyframes slide-left {
   from {
     left: 0;
