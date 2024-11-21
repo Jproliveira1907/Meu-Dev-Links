@@ -1,4 +1,3 @@
-/* TODO Fix bg colors from elements! */
 * {
   margin: 0;
   padding: 0;
@@ -153,11 +152,12 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+/* TODO tweak with the default bg a little */
 #social-links {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 0;
+  padding: 12px 24px 12px 0;
   font-size: 24px;
 }
 #social-links a {
