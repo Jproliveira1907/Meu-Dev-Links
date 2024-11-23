@@ -152,7 +152,6 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
-/* TODO tweak with the default bg a little */
 #social-links {
   display: flex;
   align-items: center;
